@@ -312,7 +312,7 @@ body{font-family:var(--fontUI);background:var(--bg);color:var(--text);min-height
 .cal-modal-overlay.open .cal-modal{transform:translateY(0)}
 .cal-modal-handle{width:36px;height:4px;background:var(--border);border-radius:2px;margin:12px auto 0}
 .cal-modal-header{display:flex;align-items:center;justify-content:space-between;padding:14px 20px 10px}
-.cal-modal-title{font-size:1rem;font-weight:700;color:var(--black);font-family:Georgia,serif}
+.cal-modal-title{font-size:1rem;font-weight:700;color:var(--black);font-family:-apple-system,BlinkMacSystemFont,sans-serif}
 .cal-nav-btn{background:none;border:1.5px solid var(--border);border-radius:6px;width:30px;height:30px;cursor:pointer;font-size:0.85rem;color:var(--muted);display:flex;align-items:center;justify-content:center}
 .cal-nav-btn:active{background:var(--black);color:var(--bg);border-color:var(--black)}
 .cal-grid{padding:0 16px}
@@ -937,7 +937,7 @@ body{font-family:var(--fontUI);background:var(--bg);color:var(--text);min-height
         <circle cx="17" cy="17" r="6" stroke="#0a0a0a" stroke-width="1.5" fill="none"/>
         <circle cx="17" cy="17" r="2.5" fill="#0a0a0a"/>
       </svg>
-      <div style="font-family:var(--fontDisplay),Georgia,serif;font-size:1.3rem;color:var(--black);margin-bottom:4px">Bem-vindo ao<br>Phacolog</div>
+      <div style="font-family:var(--fontDisplay);font-size:1.3rem;color:var(--black);margin-bottom:4px">Bem-vindo ao<br>Phacolog</div>
       <div style="font-size:0.72rem;color:var(--muted)">Logbook cirúrgico para residentes</div>
     </div>
     <div class="field">
@@ -2356,17 +2356,17 @@ function renderDetail(id){
       <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:${p.mental.obs?'12px':'0'}">
         <div style="text-align:center">
           <div style="font-size:0.58rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px">Confiança</div>
-          <div style="font-size:1.6rem;font-family:Georgia,serif;color:var(--black);line-height:1">${p.mental.confianca||'—'}</div>
+          <div style="font-size:1.6rem;font-family:-apple-system,BlinkMacSystemFont,sans-serif;color:var(--black);line-height:1">${p.mental.confianca||'—'}</div>
           <div style="font-size:0.58rem;color:var(--muted)">/5</div>
         </div>
         <div style="text-align:center">
           <div style="font-size:0.58rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px">Controle</div>
-          <div style="font-size:1.6rem;font-family:Georgia,serif;color:var(--black);line-height:1">${p.mental.controle||'—'}</div>
+          <div style="font-size:1.6rem;font-family:-apple-system,BlinkMacSystemFont,sans-serif;color:var(--black);line-height:1">${p.mental.controle||'—'}</div>
           <div style="font-size:0.58rem;color:var(--muted)">/5</div>
         </div>
         <div style="text-align:center">
           <div style="font-size:0.58rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px">Estresse</div>
-          <div style="font-size:1.6rem;font-family:Georgia,serif;color:var(--black);line-height:1">${p.mental.estresse||'—'}</div>
+          <div style="font-size:1.6rem;font-family:-apple-system,BlinkMacSystemFont,sans-serif;color:var(--black);line-height:1">${p.mental.estresse||'—'}</div>
           <div style="font-size:0.58rem;color:var(--muted)">/5</div>
         </div>
       </div>
